@@ -27,3 +27,9 @@ def dfs(x,is_root,visited,cut):
     if is_root and cnt >= 2:
         cut.add(x)
     return ret
+
+'''
+참고
+https://www.crocus.co.kr/1164
+https://bowbowbow.tistory.com/3
+'''
